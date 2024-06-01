@@ -1,1 +1,3 @@
+# Crack 25 JavaScript Questions: Boost Your Skills and Conquer Coding Challenges!
 
+## these javascript problems (questions) may look like very crutial but they have really simple answers
