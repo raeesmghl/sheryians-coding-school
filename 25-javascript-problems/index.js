@@ -56,6 +56,8 @@
 
 // // comment reply
 
+// // someone commented on this video with a code to 'find the most frequent number, used in an array'. he was using double loop (loop inside loop) but their is simpler way to do so
+
 // let arr = [2, 3, 4, 2, 3, 2, 5, 5, 6, 6, 7, 8, 8,8,8,5,8,8, 7,8,5,];
 // let fincMostFrequent = (arr)=>{
 //     let frequency = {};
