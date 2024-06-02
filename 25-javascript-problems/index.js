@@ -119,3 +119,45 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // problem 3 : how to empty an array, do not reassign or apply loop on array;
+
+
+// let arra = [1,2,3,4,5,6,7,8,9];
+
+// arra.length = 0;  // you can set a value for the property 'length'; if you set length more than the original length of the array, it will create a hole in the array, and if you set length 5 for the array of (original) length of 9, it will include only the first 5 elements and removes all the other elements.
+
+
+// console.log(arra);
+
+
+
+// // but if you use loop : 
+
+// // does not give you the required response, because every time the length of the array is changing and the condition for the loop is also changing
+// // if you use a number rather than the array.length, in this case it will give you the required response.
+
+// for(let i = 0;i<arra.length;i++){
+//     arra.pop();    
+// }
+
+// console.log(arra);
