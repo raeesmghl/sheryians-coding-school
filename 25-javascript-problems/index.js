@@ -259,3 +259,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// problem 5: how to duplicate an array like [1,2,3,4] to [1,2,3,4,1,2,3,4];
+
+let duplicate = arr => arr.concat(arr);
+
+
+
+
+
