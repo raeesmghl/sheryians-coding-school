@@ -77,3 +77,45 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// problem 2 : check if type is object but is it an array or not
+
+// // my solution
+// // sheryians solution
+// let arr = [1,2,3];
+// let obj = {
+//     a:1,
+//     b:2,
+//     c:3,
+// }
+
+// console.log(typeof arr);
+// console.log(typeof obj);
+// console.log(Array.isArray(arr))
+// console.log(Array.isArray(obj))
+
+
+
+
+
+
