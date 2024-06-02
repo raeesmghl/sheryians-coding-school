@@ -161,3 +161,101 @@
 // }
 
 // console.log(arra);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // problem 4: check if a number is integer or not;
+
+// let num = 45.45;
+// let a = Number.isInteger(num);
+// console.log(a);
+
+// without using Number.isInteger(num);
+
+
+
+// when you divide 45 with 1 its 45 and remainder is 0 and if you divide 45.3 with 1, its 45 and remainder is 0.3;
+
+
+// console.log(45%1)
+// console.log(45.5%1)
+
+// // so use this technique
+
+
+// let n = 0;
+
+// if(n%1==0){
+//     console.log('integer')
+// }else{
+//     console.log('non integer')
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
