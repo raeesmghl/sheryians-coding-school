@@ -4,3 +4,10 @@
 
 
 [watch](https://www.youtube.com/watch?v=qJGR9lLcRc0) video
+
+
+
+
+## topics : 
+
+reverse each word in a string
