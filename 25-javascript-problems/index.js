@@ -279,3 +279,115 @@ let duplicate = arr => arr.concat(arr);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function problems 
+
+//___________________________________________________________________________________________________
+
+
+// problem 6: write a function that reverse a number;
+
+
+let reverseNumb = (n) => {
+    let str = n.toString().split('').reverse().join('')
+    return Number(str);
+}
+
+// this was a single line solution
+
+// but if you want to solve with loops and conditionals : 
+
+
+
+function reverseTheNumber(num) {
+
+    let lastletter = 'last letter ' + num % 10;
+
+    let remaining = 'remaining ' + Math.floor(num / 10);
+
+
+    // let result = [];
+
+    // while(num>0){
+
+    //     let rem = num%10;
+    //     result.push(rem);
+    //     num = Math.floor(num/10);
+    // }
+    // return result.join('');
+
+
+    // // without using array, we can use arithmetic operators to do the same;
+
+
+    let rev = 0;
+    while (num > 0) {
+        let rem = num % 10;
+        rev = rev * 10 + rem // try to understand the difference between both while loops, this is the only difference between both of these
+
+        num = Math.floor(num / 10);
+
+
+    }
+
+    return rev;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
