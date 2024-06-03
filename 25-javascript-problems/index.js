@@ -518,3 +518,115 @@ let capitalizeFirstLetter = (str) => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // problem 10 : write a javascript function that returns the type of the argument;
+
+
+let typeIs = param => typeof param;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  // problem 11 : javascript function that returns number of occurance of each letter in a string;
+
+
+// // my solution
+let howManyTimes = (str, letter) => {
+
+    let frequency = {};
+    for (let i of str) {
+        frequency[i] = (frequency[i] || 0) + 1;
+    }
+    return (letter.length > 1) ? 'only single letter alllowed' : frequency[letter];
+}
+
+// console.log(howManyTimes('this si a ','ab'));
+
+
+// // sheryians solution 
+
+function occ(str) {
+    var occurance = {};
+
+    str.split('').forEach(element => {
+        if (occurance.hasOwnProperty(element)) {
+            occurance[element]++;
+        } else {
+            occurance[element] = 1;
+        }
+    });
+    return occurance;
+}
+
+// console.log(occ('this'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
