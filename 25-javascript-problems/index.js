@@ -867,3 +867,78 @@ let arr = [1, 2, 3, 4, 5];
 // arr.push(2222222222);
 // console.log(arr);
 // console.log(newArr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // problem 16 : write a javascript function that returns the first n element of the array;
+let func = (arr, n) => {
+
+    let newAr = [];
+
+    if (n <= arr.length){
+        for (let i = 0; i < n; i++) {
+            newAr.push(arr[i]);
+        }
+    }else{
+        return n+ ' to elements bhi ni hn'
+    }
+
+    return newAr;
+
+}
+
+
+// console.log(func([1, 2, 3, 4, 5], 31));
+
+// for getting last n elements 
+
+let func2 = (arr,n)=>{
+    let newAr = [];
+
+    if(n<=arr.length){
+        for(let i = 0 ; i < n ; i++){
+            newAr.unshift(arr[arr.length-1-i]);
+        }
+    }else{
+        return n+ ' to element bhi ni hn 2';
+    }
+
+    return newAr;
+}
+
+// console.log(func2([1,2,3,4,5],3))
