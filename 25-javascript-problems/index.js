@@ -435,3 +435,43 @@ let checkPalindrome = (str) => {
 
 
 
+
+
+
+
+
+
+
+
+
+// // problem 8: write a javascript function that returns a passed string with letters in alphabetic order
+
+
+
+function alphabeticOrder() {
+    return a.split('').sort().join('');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
