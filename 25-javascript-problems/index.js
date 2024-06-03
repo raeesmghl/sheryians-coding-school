@@ -985,7 +985,6 @@ let func2 = (arr,n)=>{
 
 // // problem 17 : most frequent item in an array;
 
-
 // // my solution (comment reply);
 
 let mostFrequent = (arr) =>{
@@ -1024,6 +1023,66 @@ let freq = (arr)=>{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // problem 18 : shuffle an array
+
+
+
+
+// my solution (fisher yates)
+
+let shuffle = (arr) =>{
+
+    for(let i = arr.length-1;i>0;i--){
+        let j = Math.floor(Math.random()*(i+1));
+
+        let el = arr[i];
+        arr[i] = arr[j];
+        arr[j] = el;
+    }
+
+    return arr;
+
+}
+
+// sheryians solution (good one);
+let shuffleKaro = (arr) =>{
+    var totalShuffleArea = arr.length;
+    while(totalShuffleArea>0){
+        totalShuffleArea--;    
+        let indexToBeExchanged = Math.floor(Math.random()*totalShuffleArea);
+        let temp = arr[totalShuffleArea];
+        arr[totalShuffleArea] = arr[indexToBeExchanged];
+        arr[indexToBeExchanged] = temp;
+    }
+    return arr;
+}
 
 
 
