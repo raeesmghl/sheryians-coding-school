@@ -22,6 +22,14 @@ how to empty an array, do not reassign or apply loop on array;
 check if a number is integer or not;
 
 
+duplicate an array
+
+
+
+
+
+
+
 
 
 
