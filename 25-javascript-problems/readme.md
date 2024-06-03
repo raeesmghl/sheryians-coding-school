@@ -11,3 +11,9 @@
 ## topics : 
 
 reverse each word in a string
+
+
+check if type is object but is it an array or not
+
+
+how to empty an array, do not reassign or apply loop on array;
