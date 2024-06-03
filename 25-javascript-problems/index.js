@@ -832,3 +832,38 @@ let sigmaArray = arrOfObjs.filter((obj) => obj.gender == 'male')
 
 
 
+
+// // problem 15 : use spread operator to copy array (not the refrence to the array);
+
+
+
+// simply their are two datatypes (previtives and refrence);
+
+// objects are refrence datatyes that means it gives you the refrence to the original object (not copy);
+
+// by using spread operator, we can do this
+
+
+
+let arr = [1, 2, 3, 4, 5];
+// let newAr = [...arr];
+
+
+// console.log(arr);
+// console.log(newAr);
+
+// arr.pop();  // only did changes on arr;
+
+// console.log(arr);
+// console.log(newAr);
+
+
+
+// // we can also use .map() method
+
+
+// newArr = arr.map(v=>v);
+// console.log(newArr);
+// arr.push(2222222222);
+// console.log(arr);
+// console.log(newArr);
