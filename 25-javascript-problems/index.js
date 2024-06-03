@@ -685,6 +685,45 @@ let arrayOfNumbers = [1, 2, 3, 4, 5];
 
 
 
+// // problem 13: loop an array of different datatypes and only add numbers
+
+
+let array = [314, true, 'string', undefined, 45, 'another str', 12, 90, 0, false];
+
+
+// mysolution
+
+let onlyNumSum = (arr) => {
+    let filtered = arr.filter((el) => typeof el == 'number')
+
+    return filtered.reduce((a, b) => a + b);
+
+}
+
+
+// sheryians solution
+
+let summ = 0;
+
+array.forEach((el) => {
+    if (typeof el == 'number') {
+        summ += el;
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
