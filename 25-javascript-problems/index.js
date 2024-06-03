@@ -732,3 +732,103 @@ array.forEach((el) => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+// // problem 14 : loop an array of objects and remove all the objects which don't have gender value 'male';
+
+let arrOfObjs = [
+    { name: 'person1', gender: 'male' },
+    { name: 'person2', gender: 'female' },
+    { name: 'person3', gender: 'male' },
+    { name: 'person4', gender: 'female' },
+    { name: 'person5', gender: 'male' },
+    { name: 'person6', gender: 'female' },
+    { name: 'person7', gender: 'gmail' },
+    { name: 'person8', gender: 'female' },
+    { name: 'person9', gender: 'male' },
+    { name: 'person10', gender: 'shemale' },
+    { name: 'person11', gender: 'male' },
+    { name: 'person12', gender: 'male' },
+    { name: 'person13', gender: 'male' },
+    { name: 'person14', gender: 'hotmale' },
+    { name: 'person15', gender: 'shemale' },
+    { name: 'person16', gender: 'male' },
+    { name: 'person17', gender: 'costom' }, 
+    { name: 'person18', gender: 'female' },
+];
+
+
+// // my solution (for sheryians, its simple)
+let sigmaArray = arrOfObjs.filter((obj) => obj.gender == 'male')
+
+
+// console.log(arrOfObjs);
+// console.log(sigmaArray);
+
+
+// // sheryians solution
+
+
+
+// for(let i = 0;i<2;i++){
+
+//     // this loop does not fullfil our requirements, as an element is removed from the array, this will change the length of the array (on which our loop's condition is based). so we wrapped this with another loop 
+//     for(let j = 0;j<arrOfObjs.length;j++){
+//         if(arrOfObjs[j].gender !== 'male'){
+//             arrOfObjs.splice(j,1);
+//         }
+//     }
+
+// }
+// // console.log(arrOfObjs);
+
+
+
+// // their is another way to do this  (someone commented 'solved a mystery for me' lol)
+
+// for(let i = 0;i<arrOfObjs.length;i++){
+//     if(arrOfObjs[i].gender !== 'male'){
+//         arrOfObjs.splice(i,1);
+//         i--;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
