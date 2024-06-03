@@ -475,3 +475,46 @@ function alphabeticOrder() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// // problem 9: write a javascript function to capitalize the first letter in the string
+
+
+
+let str = 'zindabad mubashar puttar maza e aa gya';
+
+// let capitalizeFirstLetter = (str) =>{
+//     let arr = str.split(' ');
+//     let newArr = arr.map((v)=>{
+//         return v[0].toUpperCase() + v.slice(1).toLowerCase();
+//     })
+//     return newArr.join(' ')
+
+// }
+
+
+
+// in the array repo (my javascript notes) their is are several methods to do so. but this is different because it used map()
+
+// to understand this, i used too much variables but you can do this in a shorter way
+
+let capitalizeFirstLetter = (str) => {
+    return str.split(' ').map((v) => {
+        return v[0].toUpperCase() + v.slice(1).toLowerCase();
+    }).join(' ')
+}
+
+
+
+
+
