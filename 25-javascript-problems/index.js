@@ -630,3 +630,66 @@ function occ(str) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // problem 12 : loop an array and add all the members
+
+
+let arrayOfNumbers = [1, 2, 3, 4, 5];
+
+// // my solution
+// let sum = arrayOfNumbers.reduce((a,b)=>a+b,0);
+
+
+//  // sheryians solution
+
+
+// let sumOfArrayNumbers = 0;
+
+// arrayOfNumbers.forEach((el)=>{
+//     sumOfArrayNumbers+=el;
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
