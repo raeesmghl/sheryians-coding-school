@@ -1112,3 +1112,15 @@ let shuffleKaro = (arr) =>{
 
 
 
+
+
+// // problem  19 : union arrays
+
+let union = (arr1,arr2) =>{
+    // i dont know wtf is Set
+    let a = [...new Set(arr1.concat(arr2))]
+    return a.sort((a,b)=>a-b);
+}
+
+
+
