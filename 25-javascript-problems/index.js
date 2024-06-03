@@ -942,3 +942,114 @@ let func2 = (arr,n)=>{
 }
 
 // console.log(func2([1,2,3,4,5],3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // problem 17 : most frequent item in an array;
+
+
+// // my solution (comment reply);
+
+let mostFrequent = (arr) =>{
+
+    let frequency = {};
+    let max = 0;
+
+    for(let el of arr){
+        frequency[el] = (frequency[el] || 0) +1;
+
+        if(frequency[el]>max){
+            max = el;
+        }
+    }
+    return max;
+}
+
+
+// // sheryians solution :
+
+let freq = (arr)=>{
+    let frequency = {};
+
+    arr.forEach((elem)=>{
+        if(frequency.hasOwnProperty(elem)) frequency[elem]++
+        else frequency[elem] = 1;
+    })
+
+    let max = Object.keys(frequency).reduce((a,b)=>{
+        return frequency[a]>frequency[b]?a:b
+    })
+    return max;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
