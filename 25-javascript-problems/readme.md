@@ -8,7 +8,7 @@
 
 
 
-## topics : 
+# topics : 
 
 reverse each word in a string
 
