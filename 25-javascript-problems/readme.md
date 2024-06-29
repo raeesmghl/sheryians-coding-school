@@ -26,6 +26,7 @@ duplicate an array
 
 
 
+## functional problems
 
 
 
