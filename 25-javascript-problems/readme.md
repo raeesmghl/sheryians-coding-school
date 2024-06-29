@@ -41,4 +41,8 @@ write a javascript function that returns a passed string with letters in alphabe
 write a javascript function to capitalize the first letter in the string
 
 
+write a javascript function that returns the type of the argument
+
+
+
 
