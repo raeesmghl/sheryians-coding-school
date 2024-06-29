@@ -30,3 +30,6 @@ duplicate an array
 
 
 write a function that reverse a number
+
+
+is string a palindrome
