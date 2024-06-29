@@ -50,3 +50,6 @@ write a javascript function that returns the type of the argument
 loop an array and add all the members
  
 
+ loop an array of different datatypes and only add numbers
+
+
