@@ -38,3 +38,7 @@ is string a palindrome
 write a javascript function that returns a passed string with letters in alphabetic order
 
 
+write a javascript function to capitalize the first letter in the string
+
+
+
