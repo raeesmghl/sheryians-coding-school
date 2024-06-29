@@ -29,10 +29,4 @@ duplicate an array
 ## functional problems
 
 
-
-
-
-
-
-
-
+write a function that reverse a number
