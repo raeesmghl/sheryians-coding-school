@@ -46,3 +46,7 @@ write a javascript function that returns the type of the argument
 
  javascript function that returns number of occurance of each letter in a string
 
+
+loop an array and add all the members
+ 
+
