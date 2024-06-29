@@ -44,5 +44,5 @@ write a javascript function to capitalize the first letter in the string
 write a javascript function that returns the type of the argument
 
 
-
+ javascript function that returns number of occurance of each letter in a string
 
