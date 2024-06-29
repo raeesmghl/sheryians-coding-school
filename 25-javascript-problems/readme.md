@@ -54,3 +54,4 @@ loop an array of different datatypes and only add numbers
 
 
 // // problem 14 : loop an array of objects and remove all the objects which don't have gender value 'male';
+// // problem 15 : use spread operator to copy array (not the refrence to the array);
