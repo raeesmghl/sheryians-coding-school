@@ -57,3 +57,4 @@ loop an array of different datatypes and only add numbers
 // // problem 15 : use spread operator to copy array (not the refrence to the array);
 // // problem 16 : write a javascript function that returns the first n element of the array;
 // // problem 17 : most frequent item in an array;
+// // problem 18 : shuffle an array
