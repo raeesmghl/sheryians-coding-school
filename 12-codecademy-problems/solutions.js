@@ -155,3 +155,38 @@ function isDivisible(n, divisible) {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+// solution 10 : 
+
+function noOfVovels (str) {
+    let sum = 0;
+
+    str.split('').forEach(el => {
+        if(el=='a' || el == 'e' || el=='i' || el == 'o' || el == 'u'){
+            sum++;
+        }
+    });
+    return sum;
+}
+
+
+// or (chatGPT) : 
+
+
+
+
+
+
+
+
+
