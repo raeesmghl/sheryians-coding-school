@@ -144,3 +144,14 @@ let withoutSpaces  = str=> str.split(' ').join('')
 // solution 9 : 
 
 let isDivisible=(n,divisible) => n%divisible==0?true:false;
+
+//or (chatGPT)
+
+function isDivisible(n, divisible) {
+    if (n % divisible === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
