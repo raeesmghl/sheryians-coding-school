@@ -36,3 +36,15 @@ tableOf(4,20);
 
 
 
+
+// solution 3 : 
+
+let meterToFeet = n => n*3.28084;
+
+// create any conversion formula, pick the formula from google and use in javascript syntax
+
+
+
+
+
+
