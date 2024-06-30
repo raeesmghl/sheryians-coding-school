@@ -12,3 +12,27 @@ function func (n) {
     }
     return arr.join(' ')
 }
+
+
+
+
+
+
+
+
+
+
+
+// solution 2 :
+
+function tableOf(n,till) {
+    for(let i = 1; i<=till;i++){
+        console.log(`${n} * ${i} = ${n*i}`)
+    }
+}
+tableOf(4,20);
+
+
+
+
+
