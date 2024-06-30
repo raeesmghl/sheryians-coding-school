@@ -14,3 +14,16 @@ Try to make the solution to this problem as efficiently as possible. Consider us
 Let’s start with the tables that many of us had to memorize in school. Can you print a table that contains all the answers to the multiplication tables from 1 through 10?
 
 ---
+
+
+## 3. Create a length converter function
+Creating a function is a skill that’ll be useful in many settings, and as you progress, you’ll be working on much more complicated functions than this one. But a function that converts units of measure can be pretty handy in multiple professions and industries.
+
+Let’s start with a conversion from kilometers to miles. The function should include the input in kilometers and return the answer in miles.
+
+---
+
+
+
+
+
