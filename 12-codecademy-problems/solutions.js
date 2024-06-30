@@ -95,3 +95,5 @@ function tableOf(n,till) {
 let arr = [1,2,3,4,5];
 let rev = arr.reverse();
 console.log(arr)
+
+// we have solved this problem in multiple ways in the notes
