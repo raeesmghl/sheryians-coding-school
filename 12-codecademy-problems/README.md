@@ -85,7 +85,7 @@ Create a function that’ll return an integer of the number of vowels found in a
 
 
 
-11. Create a function that finds the maximum number in an array
+## 11. Create a function that finds the maximum number in an array
 In this challenge, you’ll write a function that takes an array of numbers as an input and returns the largest number in that array. Test your function with various arrays, including arrays with negative numbers, decimals, and all positive integers.
 
 
