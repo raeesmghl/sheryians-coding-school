@@ -137,3 +137,10 @@ let withoutSpaces  = str=> str.split(' ').join('')
 
 
 
+
+
+
+
+// solution 9 : 
+
+let isDivisible=(n,divisible) => n%divisible==0?true:false;
