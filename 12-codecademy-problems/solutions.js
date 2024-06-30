@@ -50,3 +50,12 @@ let meterToFeet = n => n*3.28084;
 
 
 
+
+
+// solution 4 : 
+
+let sumOfAr = (ar) =>{
+    return ar.reduce((a,b)=>a+b);
+}
+
+
