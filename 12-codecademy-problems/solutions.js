@@ -59,3 +59,35 @@ let sumOfAr = (ar) =>{
 }
 
 
+// bonus intermediate challenge : we are gonna sum the last (final/answer) column in multiplication table (solution 2 concept is used);
+
+function func(n) {
+    let sum = 0;
+    for(let i = 1;i<=10;i++){
+        sum+=(n*i)
+    }
+    return sum;
+}
+
+// or you can directly use solution 2 with some additions : 
+
+function tableOf(n,till) {
+    let sum = 0
+    for(let i = 1; i<=till;i++){
+        console.log(`${n} * ${i} = ${n*i}`)
+        sum+=(n*i);
+    }
+    console.log(`sum of all results is ${sum}`)
+}
+
+
+
+
+
+
+
+
+
+
+
+
