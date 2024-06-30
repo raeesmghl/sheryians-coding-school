@@ -75,6 +75,12 @@
 
 // console.log(fincMostFrequent(arr))
 
+// Your approach is almost correct, but there's a small issue in how the maximum frequency value is being tracked.
+// In your code, the variable mostFrequent is being assigned the element itself instead of the frequency count.
+// To correctly identify the element with the maximum frequency, 
+// you'll need to keep track of both the highest frequency and the element associated with that frequency.
+
+
 
 
 
