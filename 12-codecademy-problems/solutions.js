@@ -97,3 +97,15 @@ let rev = arr.reverse();
 console.log(arr)
 
 // we have solved this problem in multiple ways in the notes
+
+
+
+
+
+
+
+
+// solution 6 :
+
+arr.sort((a,b)=>a-b);  // numerically sorted
+
