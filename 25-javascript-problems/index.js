@@ -80,13 +80,25 @@
 // To correctly identify the element with the maximum frequency, 
 // you'll need to keep track of both the highest frequency and the element associated with that frequency.
 
+function func(arr) {
+    let frequency = {};
+    let maxCount = 0;
+    let maxElement = null;
 
+    for (let i of arr) {
+        frequency[i] = (frequency[i] || 0) + 1;
 
+        if (frequency[i] > maxCount) {
+            maxCount = frequency[i];
+            maxElement = i;
+        }
+    }
+    return maxElement;
+}
 
-
-
-
-
+// Example usage:
+const myArray = [3, 7, 2, 9, 5, 3, 7, 3, 3];
+console.log(func(myArray)); // Output: 3
 
 
 
