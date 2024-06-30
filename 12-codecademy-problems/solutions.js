@@ -128,3 +128,12 @@ function filterNegatives(arr) {
 
 
 
+
+
+// solution 8 : 
+
+
+let withoutSpaces  = str=> str.split(' ').join('')
+
+
+
