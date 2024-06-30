@@ -169,20 +169,30 @@ function isDivisible(n, divisible) {
 // solution 10 : 
 
 function noOfVovels (str) {
-    let sum = 0;
+    let no = 0;
 
     str.split('').forEach(el => {
         if(el=='a' || el == 'e' || el=='i' || el == 'o' || el == 'u'){
-            sum++;
+            no++;
         }
     });
-    return sum;
+    return no;
 }
 
 
 // or (chatGPT) : 
 
+function noOfVovel (str) {
 
+    let vovels = 'aeiouAEIOU';
+    let count = 0;
+    for(let i of str){
+        if(vovels.includes(i)){
+            count++;
+        }
+    }
+    return count;
+}
 
 
 
