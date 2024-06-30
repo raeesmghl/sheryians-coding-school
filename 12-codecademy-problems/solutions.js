@@ -109,3 +109,22 @@ console.log(arr)
 
 arr.sort((a,b)=>a-b);  // numerically sorted
 
+
+
+
+
+
+
+// solution 7 : 
+
+
+function filterNegatives(arr) {
+    return arr.filter(el=>el>0)
+}
+
+
+
+
+
+
+
