@@ -223,3 +223,22 @@ console.log(Math.max.apply(null,ab));
 
 // if you want to find the most frequent el in array, check 'comment reply example' in '25 javascript problems' by sheryians coding school
 
+
+
+
+
+
+
+
+
+
+
+// solution 12 : 
+
+function isPalindrome(str) {
+
+    let newStr = str.toLowerCase().replace(/[^a-z]/g,'');
+    let reversed = newStr.split('').reverse().join('');
+    return reversed == newStr
+}
+console.log(isPalindrome('car ock kcor 3ac'));
