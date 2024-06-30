@@ -91,7 +91,7 @@ function tableOf(n,till) {
 
 
 
-// solution 4 : 
+// solution 5 : 
 let arr = [1,2,3,4,5];
 let rev = arr.reverse();
 console.log(arr)
